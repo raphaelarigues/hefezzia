@@ -1,0 +1,11 @@
+@import "./reset.scss";
+@import "./global.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Montserrat", system-ui, sans-serif;
+  }
+}

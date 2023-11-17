@@ -1,0 +1,35 @@
+.containerCheckbox {
+  background: #3c78bd;
+  height: 401px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5rem;
+
+  .boxDSU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .boxCheckbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    & > div {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .imgDevice {
+    display: none;
+  }
+}

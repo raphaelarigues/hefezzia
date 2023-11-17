@@ -1,0 +1,55 @@
+.containerEquip {
+  margin-top: 2rem;
+  height: auto;
+
+  .infoEquip {
+    display: flex;
+    flex-direction: column;
+    height: 36rem;
+    justify-content: space-evenly;
+
+    .imgEquip {
+      z-index: 999;
+    }
+  }
+}
+
+.background {
+  background-color: rgb(56, 71, 90);
+}
+.boxInfoDevelop {
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+  .boxWeTeam {
+    padding-top: 5rem;
+    height: 24rem;
+    color: rgb(232, 230, 227);
+    background-image: initial;
+    background-color: rgb(56, 71, 90);
+  }
+
+  .boxCeo {
+    display: flex;
+    height: 22rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .boxTitle {
+      display: flex;
+      width: 20rem;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      .imgCeoJPO {
+        position: relative;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
