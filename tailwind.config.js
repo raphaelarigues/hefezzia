@@ -17,9 +17,12 @@ module.exports = withMT({
       colors: {
         "gray-700": "white",
       },
-    },
-    fontFamily: {
-      montserrat: ["Montserrat"],
+      width: {
+        90: "90%",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat"],
+      },
     },
   },
   plugins: [],

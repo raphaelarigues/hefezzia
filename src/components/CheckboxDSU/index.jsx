@@ -15,7 +15,7 @@ const CheckboxDSU = () => {
   };
   return (
     <section className={style.containerCheckbox} color="blue">
-      <div className="container">
+      <div className={`${style.container} container`}>
         <div className={style.boxDSU}>
           <h1 className="text-3xl font-bold text-white">
             Desenvolva Sistemas Unicos
@@ -60,7 +60,7 @@ const CheckboxDSU = () => {
             />
             <Radio
               name="type"
-              label="Currículo/Resume"
+              label="Currículo / Resume"
               value="curriculoResume"
               color="red"
               checked={selected === "curriculoResume"}

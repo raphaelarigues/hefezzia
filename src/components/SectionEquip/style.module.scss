@@ -5,7 +5,7 @@
   .infoEquip {
     display: flex;
     flex-direction: column;
-    height: 36rem;
+    margin-bottom: 3%;
     justify-content: space-evenly;
 
     .imgEquip {
@@ -21,8 +21,8 @@
   margin-top: -4rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5rem;
+  justify-content: center;
+  flex-wrap: nowrap;
 
   .boxWeTeam {
     padding-top: 5rem;
@@ -34,22 +34,34 @@
 
   .boxCeo {
     display: flex;
-    height: 22rem;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+
     .boxTitle {
       display: flex;
       width: 20rem;
       justify-content: space-around;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-content: center;
+      flex-direction: column;
+
+      .titlephoto-container {
+        display: flex;
+      }
       .imgCeoJPO {
         position: relative;
         width: 40px;
         height: 40px;
       }
     }
+  }
+}
+
+@media (max-width: 1023px) {
+  .boxInfoDevelop {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .boxCeo {
+    justify-content: space-around;
   }
 }

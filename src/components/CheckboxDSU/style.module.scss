@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.imgDevice {
+  width: 86rem;
+}
 .containerCheckbox {
   background: #3c78bd;
   height: 401px;
@@ -10,9 +20,11 @@
 
   .boxDSU {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .boxCheckbox {
     display: flex;
@@ -29,6 +41,10 @@
 }
 
 @media (max-width: 840px) {
+  .boxDSU {
+    flex-direction: column;
+  }
+
   .imgDevice {
     display: none;
   }

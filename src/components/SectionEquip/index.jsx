@@ -35,23 +35,28 @@ const SectionEquip = () => {
             </div>
           </div>
 
-          <div
-            className={`${styles.boxCeo} flex flex-col w-full p-3 sm:p-10 gap-4 justify-center   `}
-          >
-            <div className={styles.boxTitle}>
-              <h1>João Pedro Oliveira</h1>
-              <img className={styles.imgCeoJPO} src={CeoJPO} />
-              <p>CEO/Developer</p>
+          <div className="w-[90%] flex h-24">
+            <div
+              className={`${styles.boxCeo} flex flex-col w-full sm:p-10 gap-4 justify-center   `}
+            >
+              <div className={styles.boxTitle}>
+                <div className={styles["titlephoto-container"]}>
+                  <h1>João Pedro Oliveira</h1>
+                  <img className={styles.imgCeoJPO} src={CeoJPO} />
+                </div>
+                <p>CEO/Developer</p>
+              </div>
+              <p>
+                Liderando com visão, João não apenas guia nossa equipe, mas
+                também é um desenvolvedor talentoso. Ele traz anos de
+                experiência para o desenvolvimento de projetos inovadores,
+                combinando habilidades de liderança com conhecimento técnico
+                para impulsionar nosso sucesso.
+              </p>
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Equipe
+              </button>
             </div>
-            <p>
-              Liderando com visão, João não apenas guia nossa equipe, mas também
-              é um desenvolvedor talentoso. Ele traz anos de experiência para o
-              desenvolvimento de projetos inovadores, combinando habilidades de
-              liderança com conhecimento técnico para impulsionar nosso sucesso.
-            </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Equipe
-            </button>
           </div>
         </div>
       </div>
